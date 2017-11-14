@@ -9,8 +9,4 @@ def fizzbuzz(number)
     else
       number
   end
-
-
 end
-
-puts fizzbuzz(30)
