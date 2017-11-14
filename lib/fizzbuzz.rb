@@ -1,10 +1,11 @@
 def fizzbuzz(number)
-  case number
-    when 3 then 'fizz'
+  case
+    when ((number % 3) == 0)
+     return 'fizz'
     else number
   end
 
 
 end
 
-#puts fizzbuzz(4)
+puts fizzbuzz(18)
